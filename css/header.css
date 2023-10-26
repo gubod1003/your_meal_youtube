@@ -9,7 +9,7 @@
 
 .header__logo {
     width: 150px;
-    color: #fff;
+    color: #FFFFFF;
     margin: 0 auto 24px;
 }
 
@@ -17,19 +17,18 @@
     padding-bottom: 246px;
     background: url('../img/bur.svg') bottom/227px no-repeat ;
     text-align: center;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .header__title {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 16px;
     font-size: 30px;
     font-weight: 800;
     line-height: 120%;
 }
 
-.header__title-text {
-    display: block;
-}
 .header__title-text_red {
     color: #FF5C00;
 }
@@ -59,7 +58,7 @@
 }
 
 @media (min-width: 768px) {
-    .header{
+    .header {
         background-size: 2540px; 
     }
 
@@ -95,7 +94,7 @@
         margin-bottom: 52px;
         font-size: 50px;
     }
-    .header__appeal{
+    .header__appeal {
         font-size: 16px;
         line-height: 22px;
     }
@@ -112,7 +111,7 @@
 }
 
 @media (min-width: 1920px) {
-    .header{
+    .header {
         background-size: 4660px; 
     }
 }

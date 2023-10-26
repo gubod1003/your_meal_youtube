@@ -12,6 +12,7 @@
 }
 
 .modal__main {
+    position: relative;
     cursor: default;
     margin: auto;
     

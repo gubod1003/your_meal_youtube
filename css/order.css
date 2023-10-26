@@ -29,6 +29,10 @@
     pointer-events: none;
 }
 
+.order__wrap-title:focus-visible:after {
+    outline-color: #FFAB08;
+  }
+
 .order_open .order__wrap-title {
     margin-bottom: 8px;
 }
@@ -67,7 +71,7 @@
 
 .order__item {
     display: flex;
-    align-content: center;
+    align-items: center;
     gap: 6px;
     padding: 10px 0;
     border-bottom: 1px solid #F2F2F3;
@@ -228,7 +232,7 @@
     }
 
     .order_submit {
-        padding: 11px;
+        padding: 1px;
         border-radius: 12px;
         font-size: 16px;
         margin-bottom: 8px;

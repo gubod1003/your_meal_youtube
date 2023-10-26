@@ -1,6 +1,6 @@
 .footer {
-    padding: 24px;
-    background-color: #fff;
+    padding: 24px 0;
+    background-color: #FFFFFF;
 }
 
 .footer__logo {
@@ -26,7 +26,7 @@
 
 .footer__link-phone {
     display: flex;
-    align-content: center;
+    align-items: center;
     gap: 4px;
     font-size: 12px;
     font-weight: 400;
@@ -65,7 +65,7 @@
         margin-bottom: 36px;
     }
 
-    .footer__address{
+    .footer__address {
         flex-direction: row;
         margin-bottom: 40px;
     }
@@ -101,7 +101,7 @@
         flex-grow: unset;
     }
 
-    .footer__development  {
+    .footer__development {
         grid-area: development;
     }
     
@@ -110,7 +110,7 @@
         font-size: 24px;
     } 
 
-    .footer__title-sn{
+    .footer__title-sn {
         margin-bottom: 22px;
     }
 

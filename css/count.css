@@ -2,7 +2,7 @@
     width: 74px;
     height: 30px;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     border-radius: 8px;
     background: #F2F2F3;
